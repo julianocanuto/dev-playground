@@ -8,6 +8,7 @@ chmod +x /workspace/scripts/*.sh || true
 /workspace/scripts/initialization.sh
 /workspace/scripts/install-git.sh
 /workspace/scripts/install-claude-code.sh
+/workspace/scripts/install-tmux.sh
 
 # Keep container alive / interactive
 exec bash -l

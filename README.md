@@ -38,11 +38,13 @@ This repository provides a portable and consistent development environment. It u
     - `initialization.sh`: Updates the system and installs core certificates.
     - `install-git.sh`: Installs and verifies the Git version control system.
     - `install-claude-code.sh`: Installs the [Claude Code](https://claude.ai/install.sh) CLI.
+    - `install-tmux.sh`: Installs and verifies the Tmux terminal multiplexer.
 
 ## 🔧 Included Tools
 
 *   **Git**: Pre-installed and ready for version control.
 *   **Claude Code**: A powerful agentic coding assistant accessible via the `claude` command.
+*   **Tmux**: Terminal multiplexer for managing multiple terminal sessions.
 
 ## 📝 Usage Note
 

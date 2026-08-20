@@ -16,6 +16,7 @@ RUN set -eux; \
     /opt/scripts/initialization.sh; \
     /opt/scripts/install-git.sh; \
     /opt/scripts/install-claude-code.sh; \
+    /opt/scripts/install-tmux.sh; \
     rm -rf /var/lib/apt/lists/*
 
 # Make sure claude is callable in all shells
